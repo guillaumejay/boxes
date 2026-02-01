@@ -92,12 +92,13 @@ You can customize:
 
     def render(self):
         # Calculate how many counters per row for optimal layout
-        counters_per_row = int(math.ceil(math.sqrt(self.count)))
+        counters_per_row = math.ceil(math.sqrt(self.count))
+        rows = math.ceil(self.count / counters_per_row)
 
         # Generate counters using partsMatrix for efficient layout
         self.partsMatrix(
             counters_per_row,
-            math.ceil(self.count / counters_per_row),
+            rows,
             "up",
             self.parts.disc,
             self.diameter,

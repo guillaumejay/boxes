@@ -17,13 +17,15 @@ You can customize:
 
 
 Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
-Command line (remove spaces between dashes): boxes Counters
+Creation date: 2026-02-01 19:15:19
+Command line (remove spaces between dashes): boxes Counters - -output
 -->
 <title>Counters</title>
 <metadata>
 <rdf:RDF><cc:Work>
 <dc:title>Misc - Counters</dc:title>
-<dc:source>boxes Counters</dc:source>
+<dc:date>2026-02-01 19:15:19</dc:date>
+<dc:source>boxes Counters --output examples/Counters.svg</dc:source>
 <dc:description>Game counters/tokens for board games
 
 
@@ -38,8 +40,8 @@ You can customize:
 
 
 Created with Boxes.py (https://boxes.hackerspace-bamberg.de/)
-Command line: boxes Counters
-Command line short: boxes Counters
+Command line: boxes Counters --output examples/Counters.svg
+Command line short: boxes Counters --output
 </dc:description>
 </cc:Work></rdf:RDF></metadata>
 <g id="p-0" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
